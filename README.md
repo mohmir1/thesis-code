@@ -37,13 +37,7 @@ The final model configuration (500 trees, max_samples=0.75, max_features=1.0) ac
 
 ```text
 .
-├── data/                  # Data description or anonymized sample data
-├── notebooks/             # Jupyter Notebooks for data exploration and visualization
-├── src/
-│   ├── preprocessing.py   # Data cleaning and behavioral profile extraction
-│   ├── features.py        # Calculation of Entropy, Diversity, and Ratio features
-│   ├── model.py           # Isolation Forest implementation and hyperparameter tuning
-│   └── evaluation.py      # Stability analysis (Jaccard index) and visualizations
-├── results/               # Generated plots (Correlation matrix, Boxplots, Anomaly Score distribution)
+├── data_encoded/                  # Data description or anonymized sample data
+├── main.ipynb/             # Jupyter Notebooks for data exploration and visualization
 ├── requirements.txt       # Python dependencies
 └── README.md
